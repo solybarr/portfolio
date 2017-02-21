@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Cards by SBW</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Scripts  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+
+    <h1>Ye Olde Rolodex</h1>
+    <form action="#">
+        <h2>Please add your details!</h2>
+        <label>First Name:
+            <input type="text" name="first_name" placeholder="First Name">
+        </label>
+
+        <label>Last Name:
+            <input type="text" name="last_name" placeholder="Last Name">
+        </label>
+
+        <label>Description:
+            <textarea name="description" rows="8" cols="50" placeholder="Enter Description" maxlength="250"></textarea>
+        </label>
+
+        <input type="submit" value="Add User">
+    </form>
+    <div id="cards">
+
+    </div>
+</body>
+</html>

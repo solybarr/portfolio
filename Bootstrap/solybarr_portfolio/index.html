@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Sol Barrera Watters - Web Development Consultant</title>
+
+        <!-- Font awesome for social media icons -->
+        <script src="https://use.fontawesome.com/4db1c1cf9b.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <!-- Custom styles for this template go here -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar">
+        <!--  Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="navbar-brand my-logo">
+                        <a href="#carousel"><img class="img-responsive" src="img/logo.png" alt="Sol B.W."></a>
+                    </div> <!--end projectName -->
+
+                </div> <!--end navbar-header -->
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about-title">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#wordpress">Wordpress</a></li>
+                                <li><a href="#psdtohtml">PSD to HTML</a></li>
+                            </ul>
+
+                        </li>
+                        <li><a href="#faq-title">FAQ</a></li>
+                        <li><a href="#contact-title">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--  End Navigation -->
+
+        <!-- START HOME SECTION -->
+        <!-- Carousel -->
+        <div id="carousel" class="container">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/carousel/hero01.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h2>High quality work</h2>
+                            <p>I pride myself in delivering precise and high quality work.<br> Rush coding and then having to re-do the work or hire a different developer causes late deadlines.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/hero02.jpg" alt="...">
+                        <div class="carousel-caption">
+                            <h2>Expertise in your craft</h2>
+                            <p>I constantly work to hone my skills and adapt to new technologies.<br>Our world moves fast! Technology moves even faster.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/carousel/hero03.jpg" alt="...">
+                        <div class="carousel-caption different">
+                            <h2>I love what I do</h2>
+                            <p>Web development work seems easy, but it can be very detail oriented. <br>For a project to finally be shipped you have to care for your product, <br>care for your client.</p>
+                        </div>
+                    </div>                    
+                </div><!-- END Wrapper for slides -->
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+                <!-- END Controls -->
+            </div>
+        </div> <!-- END Container with Carousel -->
+    
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+            <div class="col-md-4">
+              <h2>Portfolio Concept</h2>
+              <p>My work is focused on <a href="#" title="Content Management System" id="item1">WordPress</a> development, that is taking a client's raw PSD and adapting it to this free Content Management platform. Also finding the right frameworks and plugins to make the sites reliable and manageable by the client.</p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Click for more!">View details &raquo;</button></p>
+            </div><!-- /col -->
+            <div class="col-md-4">
+              <h2>Project Goals</h2>
+              <p>My main goal is to take this <a href="#" title="Web Development School" id="item2">CareerFoundry</a> course and treat it like a full time job, that means 6-8 hours daily of work at the least. My very ambitious deadline is to finish by December 1rst, and my reward a trip to WordCamp US.</p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Click for more!">View details &raquo;</button></p>
+            </div><!-- /col -->
+            <div class="col-md-4">
+              <h2>Course Goals</h2>
+              <p>I want this course to strengthen my basic web development skills and add to that skillset.  I also want to be faster and have a bit more confidence in my skills. I am a freelancer now, but it is difficult to find work if you are not an "expert". Also, as a self taught dev I am eager to learn "best practices" and current development workflows used in "real life".</p>
+              <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Click for more!">View details &raquo;</button></p>
+            </div><!-- /col -->
+            </div><!-- /row -->
+
+            <hr>
+
+        </div> <!-- container -->
+        <!-- END HOME SECTION -->
+
+        <!-- START ABOUT SECTION  -->
+        <div id="about-title" class="header white-mask parallax-back anchor">
+            <h1 class="decorative-border">About</h1>
+        </div><!-- end header -->
+        <div id="about" class="container" >
+
+
+                <div class="row">
+                    <div class="col-md-3 image">
+                        <img class="my-image img-responsive"  src="img/350px-Central_America.png" alt="Central America - Panama">
+                    </div>
+                    <div class="col-md-9">
+                        <p>Hello, my name is Sol and I am a web developer born and raised in Central America. </p>
+                        <p>I taught myself about the WWW when it was just starting out back in 1996, and it still excites me because of the new tools and breakthroughs!</p>
+                        <p>My work experience consists of a mix of Web Development Consulting and Freelance Translating Services (Spanish <> English).<br>
+                        When working as a Web Dev consultant I’ve undertaken tasks such as:</p>  
+                    
+                        <ul>
+                            <li>Working with CMS systems: Installing, configuring, migrating, backing up and customizing [Wordpress, Joomla! Drupal]</li>
+                            <li>Adapting purchased themes and templates to Clients specs</li>
+                            <li>Evaluating plugins, themes templates and software for client projects</li>
+                            <li>Installing and adapting scripts (PHP, Javascript), Creating custom software (ASP/VbScript, PHP).</li>
+                        </ul>
+                        <p>As a freelancer interpreter and translator my tasks included mainly working with printed and digital translations such as manuals, websites, brochure and pamphlet translations and more.</p>   
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-6 skills">
+                        <h3>My Skills</h3>
+                        <div class="skill-list">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">PSD 2 HTML -> 60%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">JavaScript -> 30%
+                                </div>
+                            </div>                            
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">WordPress Themes -> 50%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">WP Plugin Dev -> 25%
+                                </div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">English Fluency -> 95%
+                                </div>
+                            </div>  
+                            <p>I am always learning and improving on these baselines!  I love programming for the web so it is very easy to find challenges and play with new technologies.</p>                                                                           
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-6 video">
+                        <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8AoRmlAZVTs" frameborder="0" allowfullscreen></iframe>
+                        <h3>Inspiration</h3>
+                        <p>Hugh Herr talks about how "with Bionics he is no longer Disabled"</p>                        
+                    </div>                    
+                </div> <!-- end row -->    
+        </div> <!-- end ABOUT container -->
+        <!-- END ABOUT SECTION  -->
+
+
+        <!-- START WORK SECTION -->
+        <div id="work-title" class="header white-mask parallax-back" data-stellar-background-ratio="0.75">
+            <h1 class="decorative-border">Featured Work</h1>  
+        </div><!-- end header -->         
+        <div id="work" class="container">
+            
+            <div id="wordpress" class="row anchor-work work">
+                <div class="col-md-12 col-xs-12">
+                    <h2>Wordpress</h2>
+                </div>
+                <!-- Content generated via jquery -->
+            </div> <!-- end of wordpress section -->
+
+            <div id="psdtohtml" class="row anchor-work work">
+                <div class="col-md-12 col-xs-12">
+                    <h2>PSD to HTML</h2>
+                </div>  
+                <!-- Content generated via jquery -->          
+            </div> <!-- end of psdtohtml section -->
+      
+
+            <hr>
+        </div> <!-- END Portfolio container -->
+        <!-- END WORK SECTION -->
+
+
+        <!-- START FAQ/LEARN MORE SECTION -->
+        <div id="faq-title" class="header white-mask parallax-back anchor">
+            <h1 class="decorative-border">FAQ</h1>
+        </div><!-- end header -->
+        <div id="faq" class="container "> 
+            <div class="row learn-more">
+              <h2 class="learn-more">Learn More</h2>
+              <div class="modal-button">
+                    <!-- Small modal button -->
+                    <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume</button>
+              </div>
+            </div><!-- end row -->
+
+            <!-- MODAL STARTS HERE -->
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">My Resume</h4>
+                        </div>
+                        <div class="modal-body">
+                            <embed id="modalembed" src="pdf/CV-solbarrerawatters-EN-2016.pdf">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- MODAL ENDS HERE -->
+
+
+            <div class="main_text faq">
+              <p>Here are some of the most frequent questions clients have for me. 
+              If you don't find your question here, don't hesitate to go over to the <a href="#contact">contact</a> area and ask me directly. I hope that we are able to work together!</p>
+              <p>&nbsp;</p>
+
+            </div> <!-- end main_text -->
+
+        </div><!-- end container -->
+
+
+        <div class="container faq">
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-question-sign"></span>
+                      What do you specialize in?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    I specialize in WordPress Development.  That includes making, adapting and customizing WordPress themes and also Plugin Development.
+                  </div>
+                </div>
+                </div>
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                      What services do you offer?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    I offer general web development services as well, such as Site Migrations, PSD to HTML conversions, script installations and much more!
+                  </div>
+                </div>
+                </div>
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                      How long does making a website take?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Every web project is different, for that reason I ask you to contact me so that I can quote you regarding your project.  I like to deliver a high quality product, so the work will not just be done but we will work together to make sure it meets high standards.
+                  </div>
+                </div>
+                </div>
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                      Do you do UX and UI as well?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    My education has covered fundamentals of UX and UI design, however it is not my expertise. I work with several UX/UI professionals, if you contact me I can refer you to someone that will be able to help you with these types of services.
+                  </div>
+                </div>
+                </div>
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    <span class="glyphicon glyphicon-question-sign"></span>
+                      If x/y/z CMS is free, why do you charge so much for developing a site?
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Even though many of the popular content management systems are very easy to work with, many projects need special customization; not just to get a personalized product, but also so that you, the client, can fully manage your website.
+                  </div>
+                </div>
+                </div>
+
+            </div> <!-- end Accordion panel group -->
+            <hr>            
+        </div><!-- end container with accordion group -->
+        <!-- END FAQ SECTION -->
+
+
+        <!-- START CONTACT SECTION -->
+        <div id="contact-title" class="header white-mask parallax-back anchor" data-stellar-background-ratio="0.5">
+            <h1 class="decorative-border">Contact Information</h1>
+        </div><!-- end header -->  
+
+        <div id="contact" class="container-fluid">     
+            <div class="contact-wrapper">   
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="my-image" src="img/solybarr.jpg" alt="Sol Barrera W.">
+                    </div><!-- end contact image -->
+                    <div class="col-md-4">
+                        <h2>Available for work</h2>
+                        <p>I am available for freelance work right now. Contact me for pricing on various web development services or for a quote on a custom project.</p>
+                    </div><!-- end contact intro -->
+                    <div class="col-md-4">
+                        <h2>Reach out through...</h2>
+                        <ul id="skill-list">
+                            <li> <span class="glyphicon glyphicon-envelope"></span> solybarr@gmail.com</li>
+                            <li> <span class="glyphicon glyphicon-earphone"></span>  (555) 555-5555</li>
+                            <li class="social"> 
+                                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;   
+                                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>&nbsp; 
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;   
+                                <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a> 
+                            </li>
+                        </ul>
+                    </div> <!-- end contact type  -->
+                    
+                </div><!--  end row -->
+                <div class="row contact-form">
+                    <div class="col-md-12 col-xs-12">
+                        <!-- START Contact form -->
+                        <form class="" action="https://formspree.io/solybarr@gmail.com" method="POST">
+                            <div class="form-group">
+                            <h2>Or, fill out this form...</h2>
+                                <div class="separator">
+                                    <label class="thename" for="fullname">Name</label>
+                                    <label class="thetel" for="telephone">Telephone</label>
+
+                                    <input class="form-control thename" type="text" id="fullname" placeholder="Full Name" name="fullname">
+                                    
+                                    <input class="form-control thetel" type="tel" id="telephone" placeholder="(555)123-4567" name="telephone" pattern="^[\(]\d{3}[\)]\d{3}-\d{4}$">
+                                </div>
+                                <label for="email">E-mail*</label>
+                                <input class="form-control" type="email" id="email" name="email" placeholder="yourname@email.com" required=”required”>
+                                <label for="message-box">Message*</label>
+                                <textarea class="form-control" style="resize:none" name="message-box" id="message-box" cols="40" rows="5" placeholder="Your Message" required=”required”></textarea>
+                                <p id="char-count"></p>
+                                <button  id="button" type="submit" class="btn contact">Submit</button>
+                            </div>
+                            <div id="visible-comment"></div>
+                        </form>
+                        <!-- END Contact form -->
+                    </div>
+                    
+                </div><!--  end row -->
+                <div id="map" class="col-md-12 col-xs-12">
+                        <!-- Google Map goes here -->
+                </div>
+            </div> <!-- END CONTACT WRAPPER -->
+        </div><!-- end container -->        
+        <!-- END CONTACT SECTION -->
+
+        <!-- Start Footer -->
+        <footer>
+            <p class="copyright">&copy; 2016 - Sol Barrera Watters - All Rights Reserved.</p>
+            <div class="social-media-footer">
+                <a href="https://twitter.com/solybarr" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @solybarr</a>
+                
+                <div class="fb-share-button" data-href="http://solybarr.com/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsolybarr.com%2F&amp;src=sdkpreparse">Share</a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+        <!-- ============================= -->
+        <!-- All your JavaScript comes now -->
+        <!-- ============================= -->
+        
+        <!-- JQuery Call -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Bootstrap core JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- Stellar.js Plugin for Parallax -->
+        <script src="js/jquery.stellar.min.js"></script>
+
+        <!-- Custom Scripts -->
+        <script src="js/work.js"></script>
+        <script src="js/scripts.js"></script>
+
+
+        <!-- Can place script tags with JavaScript files here -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeB11YqpOXIG5yyOtb4Lo6V4Ok6X4ebpI&callback=initMap"
+        async defer></script>
+
+
+    </body>
+</html>

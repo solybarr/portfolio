@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Web Page by SBW</title>
+	
+	<!-- Import site Styles -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Import site Scripts -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+	<!-- import jQuery -->
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+
+</head>
+<body>
+
+<div id="main-container">
+	<header>
+		<h1>People that Inspire me <span class="help" onclick="alert('PLEASE: Click on an Image to start')">?</span></h1>
+	</header>
+	<section id="people">	
+		<article id="person1" >
+			<h3 class="name">Hugh Herr</h3>
+			<figure><img class=".person-image" id="1" src="img/hughherr.jpeg"  alt="Hugh Herr"></figure>
+		</article>
+
+		<article id="person2">
+			<h3 class="name">Pink</h3>
+			<figure><img  class=".person-image" id="2" src="img/pink.png"  alt="Pink"></figure>
+		</article>
+		
+		<article id="person3">
+			<h3 class="name">Usain Bolt</h3>
+			<figure><img  class=".person-image" id="3" src="img/usainbolt.jpg"  alt="Usain Bolt"></figure>
+		</article>
+		
+	</section>
+
+	<p class="scroll">Scroll down/up over the images to see<br> more content, then click to see the description</p>
+
+	<section id="all-descriptions">
+		<article id="intro-desc">
+			<h3 class="person-desc">Intro</h3>
+			<p>The following page application will show you some of the people that inspire me. <span id="how" class="myBtn" onclick="showMe();">How it works</span></p>
+			<p id="explanation">Click on any of the pictures to see who that person is and why they inspire me.</p>
+		</article>
+
+		<article id="desc1">
+			<h3 class="person-desc1">Hugh Herr</h3>
+			<h5>Who?</h5>
+			<p>Rock climber, engineer and biophysicist.</p>
+			<h5>Why?</h5>
+			<p>Hugh Herr has used his personal experience as fuel for an indomitable search for the betterment of bionics.  My favorite quote of his is "With Bionics I am no longer Disabled".</p>
+
+		</article>
+
+		<article id="desc2">
+			<h3 class="person-desc2">Pink</h3>
+			<h5>Who?</h5>
+			<p>SInger, songwriter, dancer and actress.</p>
+			<h5>Why?</h5>
+			<p>Pink has her own style and is not ashamed of it. She often uses her lyrics to protest about real events in her country and in the world.  Some of my favorite songs of her are "Mr President" and "Stupid Girls".  I like the latter because it tells women we are more than just a shell, we can be more.</p>
+		</article>
+
+		<article id="desc3">
+			<h3 class="person-desc3">Usain Bolt</h3>
+			<h5>Who?</h5>
+			<p>Olympic athlete, regarded as the fastest human ever timed.</p>
+			<h5>Why?</h5>
+			<p>There was a picture of him all over Facebook at the Rio 2016 Olympics where it seemed running and winning was just an every day occurrence for this gentleman.  I later saw a video where it shows how he trains with no days off and is constantly seeking his goal of being faster.  Here is the <a href="https://www.facebook.com/gearmaniaworld/videos/1308734685818493/" target="_blank">link</a>, to a facebook page of Muscle Madness magazine that shows the video and how his own voice says "I need to work Harder". </p>
+		</article>
+
+	</section>
+
+	<footer class="design">
+		<p>Coded by S.B.W.</p>
+	</footer>
+
+</div>
+
+
+
+<script type="text/javascript">
+	$("#person1").click(function(){
+			$("#desc1").css("display","block");
+			$("#desc2").css("display","none");
+			$("#desc3").css("display","none");
+		});
+
+	$("#person2").click(function(){
+		$("#desc1").css("display","none");
+		$("#desc2").css("display","block");
+		$("#desc3").css("display","none");
+	});
+
+	$("#person3").click(function(){
+		$("#desc1").css("display","none");
+		$("#desc2").css("display","none");
+		$("#desc3").css("display","block");
+	});
+
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,149 @@
+
+/* General site styles */
+
+body {
+	max-width: 1600px;
+}
+
+#main-container {
+	width: 96%;
+	margin: 0 auto;
+}
+
+ header, #people, .design {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#people article {
+	display: inline-block;
+}
+
+
+#all-descriptions {
+	width: 60%;
+	margin: 0 auto;
+	padding: 20px 0 40px 0;
+}
+
+
+.person-desc, article h3.name {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.myBtn {
+	border: 2px solid #eee;
+	background: lightgray;
+	border-radius: 3px;
+	padding: 4px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.myBtn:hover {
+	
+	background: darkgray;
+	text-decoration: underline;
+}
+
+#explanation {
+	visibility: hidden;
+}
+
+
+img {
+	max-width:350px;
+
+}
+
+
+/* Help button Javascript sample*/
+header h1 {
+	display:inline-block;
+}
+
+.help {
+	float: right;
+	background: lightgray;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	vertical-align: middle;
+	text-align:center;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+/* Hiding descriptions of image at the beginning */
+
+[id^="desc"] {
+	display: none;
+}
+
+.scroll{
+	visibility: hidden;
+}
+
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 817px) {
+	/*  Anything below 911px */
+	/* Chosen because at that point all
+	 the persons are stacked and here I want
+	 to use another method of viewing the person
+	*/
+
+	body {
+		background:darkseagreen;
+		}
+
+
+	.myBtn {
+		line-height: 28px;
+	}
+	
+	#people {
+		max-height: 500px;
+		overflow: scroll;
+
+	}
+
+	.scroll{
+		visibility: visible;
+		text-align: center;
+		font-weight: bold;
+	}
+
+}
+
+
+@media screen and (max-width: 1220px) {
+
+	#people {
+		max-width: 1000px;
+		max-height: 500px;
+		overflow: scroll;
+
+	}
+
+	.scroll{
+		visibility: visible;
+		text-align: center;
+		font-weight: bold;
+	}
+
+}
+
+
+
+
+

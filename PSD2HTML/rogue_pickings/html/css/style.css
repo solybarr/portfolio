@@ -1,0 +1,152 @@
+
+
+/***** BASE STYLES *****/
+
+@font-face {
+    font-family: Wisdom Script;
+    src: url('../fonts/Wisdom Script AJ.otf');
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+
+}
+
+p {
+		line-height: 25px;
+}
+
+
+.test {border: solid 1px red;}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+	overflow: auto;
+}
+
+.half-width, .third-width, .two-third-width {
+		margin: 0;
+		float: left;
+}
+
+.half-width {
+	width:600px;
+
+}
+
+.third-width {
+	width:31%;
+}
+
+.two-third-width {
+    width: 800px;
+}
+
+
+/***** 	HEADER *****/
+
+
+header h1 { 
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+    padding: 20px 0;
+}
+
+nav {
+    float: right; 
+    padding: 34px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+	color: #699550;
+    font-size: 14px;
+    font-weight: bold;	
+    text-transform:uppercase;
+    text-decoration:none;
+    padding-left: 20px; 
+}
+
+.contrast-color {
+	    color: #699550;
+}
+
+
+img.figure {
+	border: solid #699550;
+	border-right:1px;
+	border-left: 1px;
+
+}
+
+
+/***** MAIN *****/
+
+h3 {
+	color: #699550;
+    font-size: 18px;
+    font-weight: bold;	
+    text-transform:uppercase;
+
+}
+h4 {
+    font-size: 12px;
+    font-weight: bold;	
+    text-transform:uppercase;
+}
+
+.horizontal-separator {
+	margin-top: 5px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+.vertical-separator {
+	border-right: 1px solid #ccc;
+	height: auto;
+}
+
+.specials {
+	color: #699550;
+    font-size: 16px;
+    line-height: 30px;
+	padding:5px 0;
+}
+
+article {
+	max-width: 375px;
+	height: 210px;
+}
+
+.cushion {
+
+	padding: 0 30px;
+}
+
+/***** FOOTER *****/
+
+footer {
+	font-weight: bold;	
+    text-transform:uppercase;
+	text-align: center;
+	padding: 30px;
+}
+
+.fresh {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase;
+	font-weight: normal;
+
+}
+
+
+
+
+

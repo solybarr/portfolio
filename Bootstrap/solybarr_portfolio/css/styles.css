@@ -1,0 +1,493 @@
+/* General Site Styles */
+
+body {
+  position: relative;
+}
+
+.white-mask {
+	color: #fff;
+	text-shadow: 2px 2px 3px #000;
+}
+
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+.header {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.intro p {
+      font-size: 2em;
+      font-weight: 100;
+      -webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.skills {
+	background-color: #999;
+	color: #fff;
+	padding: 15px 0;
+}
+
+
+
+/* NAVIGATION & BRAND */
+
+.my-logo {
+	width: 50px;
+}
+
+.my-logo a img {
+    width: 100%;
+}
+
+.navbar-brand {
+	padding: 5px 5px;
+}
+
+ul.nav {
+	margin-right: 10px;
+}
+
+ul.nav li a {
+    color: white !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+	padding: 3px 15px;
+	margin-top: 10px;
+	border-color: #222222;
+	border-top: 3px double #222222;
+	border-bottom: 3px double #222222;
+	transition: border-color 500ms ease;
+	-webkit-transition: border-color 500ms ease;
+}
+
+ ul.nav li a:hover {
+	border-color: white;
+	border-top: 3px double white;
+	border-bottom: 3px double white;
+}
+
+.anchor {
+  margin-top: 120px;
+}
+
+#wordpress.anchor-work,
+#psdtohtml.anchor-work {
+	padding-top: 80px;
+}
+
+.caret {
+	color: #fff;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+	border-color: #999;
+}
+
+.dropdown-menu {
+	background-color: #222;
+}
+
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:hover {
+	color: #fff;
+	background-color: #222;
+}
+
+.dropdown-menu>.active>a,
+.dropdonw-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	background-color: #333;
+}
+
+
+/*SECTION TITLES*/
+#about-title {
+    background-image: url("../img/backgrounds/portfolioheroimage3.jpg");
+}
+
+#work-title {
+    background-image: url("../img/carousel/hero03.jpg");
+}
+
+#faq-title {
+    background-image: url("../img/backgrounds/Camellia2.jpg");
+}
+
+#contact-title {
+    background-image: url("../img/backgrounds/flower-bench-large.jpg");
+}
+
+
+.decorative-border {
+	width: 85%;
+	margin: 5% auto !important;
+	border: 8px white double;
+	background-color: rgba(255,255,255,0.1);
+	overflow: auto;
+	padding: 35px;
+}
+
+.parallax-back {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: center; 
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+	width: 100%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+#about .my-image {
+	display: block;
+	width: 70%;
+	margin: auto;
+}
+
+#about .row {
+	margin-bottom: 55px;
+}
+
+#about .main_text{
+	width: 80%;
+	margin: auto;
+}
+
+.skill-list {
+	width: 80%;
+	margin: auto;
+}
+
+#about h3 {
+	text-transform: uppercase;
+}
+
+div.progress-bar {
+	text-align: left;
+	padding-left: 7px;
+}
+
+
+.video {
+	margin: auto;
+	text-align: center;
+}
+
+
+/*FAQ & LEARN MORE - MODAL SECTION */
+
+h2.learn-more {
+  text-align: left;
+  float: left;
+}
+
+div.modal-button {
+  float: right;
+  padding: 15px;
+}
+.row.learn-more {
+	margin: auto;
+	padding-bottom: 25px;
+}
+
+#modalembed {
+	width: 100%;
+	height: 500px;
+	padding: 20px;
+}
+
+
+/* CONTACT SECTION */
+
+
+#contact{
+	margin-bottom: 50px;
+}
+
+.contact-wrapper {
+	width: 90%;
+	margin: 25px auto;
+	padding: 65px;
+}
+
+#contact .my-image {
+	display: block;
+	width: 60%;
+	border-radius: 50%;
+	border: 5px solid lightgray;
+	margin: auto;
+}
+
+ul#skill-list {
+	margin-left: 0;
+	list-style: none;
+}
+
+div .contact {
+	background-color: transparent;
+	color: #000;
+}
+
+
+
+#contact h1 {
+	margin-top: 0;	
+}
+
+.social a {
+	color: darkgray;
+}
+.social a:hover {
+	color: #ccc;
+}
+
+
+/*CONTACT FORM STYLES */
+.form-group {
+	width: 80%;
+	margin: 10px auto;
+}
+.form-control
+ {
+	width: 100%;
+	margin: 5px auto;
+}
+
+.form-control.thename,
+.form-control.thetel
+ {
+	width: 49%;
+	float: left;
+	padding: 1%;
+	margin: 0;
+}
+
+.form-control.thename,
+.form-group label.thename {
+	margin-right: 2%;
+}
+
+.form-group label {
+	display: block;
+}
+.separator {
+	width: 100%;
+	overflow: auto;
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.form-group label.thetel,
+.form-group label.thename {
+	width: 49%;
+	margin-bottom: 5px;
+	padding: 0;
+	float: left;
+}
+
+button.btn.contact {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.row.contact-form {
+	margin-top: 35px;
+}
+
+/* FAQ SECTION */
+
+
+#accordion .panel-heading {
+	background-color: #666;
+	color: white;
+}
+
+/* HOMEPAGE CAROUSEL STYLES */
+
+#carousel {
+	width: 100%;
+	padding: 0;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+	background-image: none;
+ }
+
+
+.carousel-caption {
+  	line-height: 1.25;
+  	color: #000;
+}
+
+div.carousel-caption.different {
+  	top:60px;
+}
+
+div.carousel-caption.different h2 {
+  	text-transform: uppercase;	
+}
+
+
+
+/* WORK/PORTFOLIO SECTION */
+
+.work {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#work h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.portfolio-item {
+	margin-bottom: 35px;
+	max-width: 100%;
+}
+
+#work h1 {
+	margin-bottom: 0;
+}
+
+.work-caption {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Styles for jquery images */
+.work-img {
+  display: block; 
+  margin: auto; 
+  max-width: 300px; 
+  position: relative; 
+  border: 1px solid darkgray;
+}
+
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color:#fff;
+  background-color: rgba(255,255,255,0.5);
+  text-transform:uppercase;
+  text-align: center;
+/*  line-height:2em;*/
+  display: none;
+  width: 300px;
+  height:212px;
+
+}
+.proj-title {
+  padding-top: 30%;
+  color: #000;
+}
+
+
+/*Map styles*/
+
+#map {
+  height: 400px;
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+
+/* FOOTER STYLES */
+
+footer {
+	background-color: #222;
+	font-size: .75em;
+	color: #fff;
+	max-height: 100px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 50px 0 0;
+	padding: 15px 20px 10px;
+	overflow: auto;
+}
+
+.copyright {
+	float: left;
+}
+
+.social-media-footer,
+.fb-share-button,
+.twitter-follow-button {
+	float: right;
+	margin-right: 5px;
+}
+
+.social-media-footer {
+	padding-right: 10px;
+	margin-right: 10px;
+}
+
+
+/* MEDIA QUERIES - ADJUSTMENTS */
+
+@media (max-width: 480px) {
+	ul#skill-list {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	#wordpress .portfolio-item,
+	#psdtohtml .portfolio-item {
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 7%;
+	}
+
+	#wordpress h4,
+	#psdtohtml h4 {
+		margin-top: 5%;
+	}
+
+	#about .image {
+		margin-bottom: 25px;
+	}
+}
+

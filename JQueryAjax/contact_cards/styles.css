@@ -1,0 +1,94 @@
+body {
+    width: 970px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+h1 {
+    border-bottom: 1px solid lightgrey;
+    text-align: left;
+}
+
+form {
+    width: 350px;
+    text-align: left;
+    background-color: lightblue;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+label {
+    display: block;
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 30px;
+    background-color: #ca1d0e;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+
+#cards {
+    display: inline-block;
+    width: 590px;
+}
+
+.single_card {
+    width: 335px;
+    height: 255px;
+    background: url('front.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 15px auto;
+    padding: 3px 40px;
+}
+
+.back {
+    background: url('back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.name, .click {
+    display: block;
+    text-align: center;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.click:hover {
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+
+img {
+    width: 25px;
+    margin-left: 5px;
+}
+p.click-back {
+    width: 100px;
+    margin-left: 150px;
+    text-align: right;
+}
+
+.click-back, img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.desc {
+    /*display: none;*/
+}

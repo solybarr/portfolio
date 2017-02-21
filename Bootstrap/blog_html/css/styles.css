@@ -1,0 +1,289 @@
+/* 1. GENERAL STYLES  */
+
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:hover, a:focus{
+  color: #6e6e6e;
+  text-decoration: none;
+}
+
+/* 2. HEADER AREA */
+
+header h1,
+footer h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3.125em;
+  font-weight: 900;
+}
+
+header small {
+  font-family: 'Lora', serif;
+  font-size: 0.625;
+  text-transform: uppercase;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+
+/* 2.1 Navigation Bar Styles */
+
+nav a,
+nav a:active,
+nav a:hover,
+nav a:focus,
+nav a:visited {
+    color: #000;
+}
+
+.social li,
+.social-author li {
+  display: inline-block;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: 3px double #d5d5d5;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8125em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* 2.2 Carousel Styles */
+
+.carousel-caption {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 135px;
+}
+
+.carousel-caption h3 {
+  font-weight: 700;
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.carousel-caption p {
+  color: #fff;
+  font-size: 0.75em;
+}
+
+.carousel-caption h3 a {
+  color: #fff;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: double 3px rgba(255,255,255,0.5);
+}
+
+.carousel-caption ul li {
+  display: inline;
+  padding-right: 11px;
+  font-size: 0.75em;
+}
+
+.carousel-caption i {
+  padding-right: 3px;
+}
+
+
+/* 3. MAIN CONTENT AREA */
+
+#main-content {
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+#main-content h3, 
+.post-meta ul li {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+#main-content h3 {
+  font-size: 1.25em;
+  margin-top: 0px;
+}
+
+
+.post-feed {
+  max-width: 370px;
+  max-height: 250px;
+}
+
+#main-content p {
+  line-height: 1.875em;
+}
+
+.post-meta ul li {
+  display: inline;
+  padding-right: 11px;
+  font-size: 0.75em;
+}
+
+.post-meta i {
+  padding-right: 3px;
+}
+
+.post-meta ul {
+  padding-left: 0px;
+  padding-top:12px;
+  display: inline-block;
+  border-top: 3px double #d5d5d5;
+}
+
+.post {
+  margin-bottom: 35px;
+}
+
+.single ul {
+  margin-top: 25px;
+  padding-left: 0px;
+  padding-top:12px;  
+  border-top: 3px double #d5d5d5;
+  display: block;
+}
+
+figure.single-post {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+#main-content.container.single-post {
+  margin-top: 20px;
+}
+
+.author {
+  margin-top: 40px;
+}
+
+figure.img-author {
+  width: 100%;
+}
+
+ul.social-author {
+  padding-left: 0;
+  font-size: 0.8125em;
+}
+
+.social-author a {
+  color: #bcbcbc;
+}
+
+.social-author a:hover {
+  color: #000;
+}
+
+p.author {
+  color: #858585 !important;
+  margin-top: 10px;
+}
+
+
+/* FOOTER AREA */
+
+footer {
+	background-color: #000;
+	/*padding: 20px;*/
+  padding: 0;
+	margin-top: 75px;
+}
+
+footer h3,
+footer p,
+footer ul li {
+	display:inline;
+}
+
+.light {
+  color: #fff;
+}
+footer h1 {
+  color: #fff;
+  padding-top: 30px;
+}
+
+p {
+  color: #6e6e6e;
+  font-size: 0.875em;
+}
+
+.copyright {
+  color: #a9a9a9;
+  font-weight: bolder;
+}
+
+
+
+/* Sticky footer styles */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 700px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 600px;
+  /*padding-top: 0px;*/
+}
+
+
+/* Social media Styles */
+
+#social-media a {
+  color: #7a7a7a;
+}
+#social-media a:hover {
+  color: #fff;
+}
+
+#social-media {
+  margin-top: 40px;
+}
+
+#social-media ul li {
+  padding: 10px 12px;
+  border: 1px solid #2f2f2f;
+}
+
+#social-media i {
+  width: 15px;
+}
+
+#myCarousel {
+  padding: 0;
+}
+

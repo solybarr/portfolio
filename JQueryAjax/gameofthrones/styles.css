@@ -1,0 +1,59 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 970px;
+    font-family: sans-serif;
+}
+
+#houses {
+    height: 350px;
+    background: url('img/allhouses.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#houses h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    text-shadow: 2px 2px 3px #460b0b;
+}
+
+#houses div {
+    width: 185px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    /*border: 1px solid red;*/
+    padding: 20px 10px;
+    margin: 5px;
+}
+
+#houses div:first-of-type {
+    margin-left: 40px;
+}
+
+img.alert {
+    width: 145px;
+    display: block;
+    margin: 30px auto;
+    visibility: hidden;
+}
+
+#details {
+    margin: 20px 0;
+    color: #fff;
+    padding: 25px;
+}
+
+#details p {
+    padding: 20px;
+}
